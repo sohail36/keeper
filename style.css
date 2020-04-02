@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin:0;
+    /* background-color:whitesmoke; */
+    
+}
+
+
+.header{
+    background: yellow;
+    padding: 10px;
+    position: relative;
+}
+
+.header h1{
+    position: relative;
+    left: 40px;
+    text-transform: capitalize;
+}
+
+ .card{
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 330px;
+    height: 150px;
+    background-color: white;
+    border: 1px solid silver;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px -1px;
+}
+
+input{
+    border: none;
+    position: relative;
+    width: 300px;
+    top: 30px;
+    left: 10px;
+    font-size: 17px;
+    background: white;
+}
+
+input:focus{
+    outline:none;
+}
+
+textarea{
+    position: relative;
+    top: 50px;
+    left: 10px;
+    border: none;
+    font-size: 17px;
+    background: white;
+   text-align: justify;
+    resize: none;
+}
+
+textarea:focus{
+    outline: none;
+}
+
+.one{
+    position: relative;
+    right: 20px;
+    border-radius:100%;
+    left: 70%;
+    top: 18px;
+    border: 1px solid yellow;
+    width: 50px;
+    height: 50px;
+    background: yellow;
+}
+
+.one:focus{
+    outline: none;
+}
+.one:hover{
+    background:black;
+    color: white;
+    border: 2px solid black;
+}
+
+.same{
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border:1px solid black;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.cards{
+    display: flex;
+    margin: 20px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+i{
+    
+    padding-top: 10px;
+    color: yellow;
+}
+.fa-lightbulb-o{
+    position: relative;
+    color: black;
+    float: right;
+    top: -40px;
+    right: 50px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
