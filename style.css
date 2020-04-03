@@ -1,27 +1,25 @@
 *{
     padding: 0;
     margin:0;
-    /* background-color:whitesmoke; */
-    
 }
 
 
 .header{
     background: yellow;
     padding: 10px;
-    position: relative;
-    width: 100vw;
+    position: relative;;
+    width: auto;
 }
 
 .header h1{
-    position: relative;
-    left: 40px;
     text-transform: capitalize;
+    background-color: yellow;
+    /* left: 20px; */
+    padding-left: 70px;
 }
 
  .card{
     display: block;
-    position: relative;
     margin: auto;
     width: 330px;
     height: 150px;
@@ -29,7 +27,7 @@
     border: 1px solid silver;
     margin-top: 20px;
     border-radius: 10px;
-    box-shadow: 3px 3px 7px -1px;
+    box-shadow: 3px 3px 7px -2px;
 }
 
 input{
