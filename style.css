@@ -10,6 +10,7 @@
     background: yellow;
     padding: 10px;
     position: relative;
+    width: 100vw;
 }
 
 .header h1{
@@ -50,14 +51,17 @@ textarea{
     top: 50px;
     left: 10px;
     border: none;
-    font-size: 17px;
+    font-size: 17px; 
     background: white;
-   text-align: justify;
+    text-align: justify;
+    min-height: 100%;
     resize: none;
+    overflow: hidden;
 }
 
 textarea:focus{
     outline: none;
+    border: none;
 }
 
 .one{
@@ -100,16 +104,17 @@ textarea:focus{
 i{
     
     padding-top: 10px;
-    color: yellow;
+    color: red;
+    font-size: 30px;
 }
+
+
 .fa-lightbulb-o{
     position: relative;
     color: black;
     float: right;
     top: -40px;
     right: 50px;
-
-
 }
 
 
